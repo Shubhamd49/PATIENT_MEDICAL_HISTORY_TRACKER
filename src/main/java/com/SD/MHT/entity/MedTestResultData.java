@@ -31,7 +31,7 @@ public class MedTestResultData {
 
         return "{" +
                 "\"test_status\": \"" + test_status + "\"" +
-                "\"test_date\": \"" + test_date + "\"" +
+                ", \"test_date\": \"" + test_date + "\"" +
                 ", \"visit_id\": \"" + visit_id + "\"" +
                 ", \"patient_id\": \"" + patient_id + "\"" +
                 ", \"hospital_name\": \"" + hospital_name + "\"" +
