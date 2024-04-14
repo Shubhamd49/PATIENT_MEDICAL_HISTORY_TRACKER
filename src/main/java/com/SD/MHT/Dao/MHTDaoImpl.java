@@ -197,7 +197,7 @@ public class MHTDaoImpl {
                         resultMap.get("DOCTOR_NAME").toString() == null ? "NULL" : resultMap.get("DOCTOR_NAME").toString(),
                         resultMap.get("LAB_NAME").toString() == null ? "NULL" : resultMap.get("LAB_NAME").toString(),
                         resultMap.get("REPORT_ID").toString() == null ? "NULL" : resultMap.get("REPORT_ID").toString(),
-                        resultMap.get("RESULT") == null ? "NULL" : resultMap.get("RESULT").toString()
+                        resultMap.get("TEST_RESULT") == null ? "NULL" : resultMap.get("TEST_RESULT").toString()
                 );
 
                 medTestResultDataList.add(medTestResultData);
