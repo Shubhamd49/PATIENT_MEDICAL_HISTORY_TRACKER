@@ -67,7 +67,7 @@ public class ApiController {
             System.out.println(Arrays.toString(suggestedTestsList));
             for(String suggestedTest : suggestedTestsList){
                 System.out.println(suggestedTest);
-                patientService.insertTestDetailsInDB(visit_id, suggestedTest, patient_id, "Test Suggested!");
+                patientService.insertTestDetailsInDB(visit_id, suggestedTest, patient_id, "SUGGESTED");
             }
             Response responseBody = new Response("000", "Patient Visit Details Added Successfully", "null");
 
